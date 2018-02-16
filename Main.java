@@ -64,6 +64,7 @@ public class Main {
             //int firstSet = (int) (numOne * Math.pow(16, power));
             long firstSet = (long)(numOne * Math.pow(16, power));
             answer = answer + firstSet;
+
             //firstSet is the group of number being multiplied at one character position
             //of a hexidecimal input
             //answer is the sum of all the positions after operations are performed
@@ -75,6 +76,7 @@ public class Main {
         }
 
         System.out.print("Your number is " + answer + " in decimal");
+        System.out.print("This is the change to my code");
 
 
 
